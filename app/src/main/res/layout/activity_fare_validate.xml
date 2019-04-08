@@ -11,7 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Value goe here"
-        tools:layout_editor_absoluteX="142dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="42dp" />
 
     <TextView
@@ -20,7 +22,9 @@
         android:layout_height="wrap_content"
         android:text="You are now transmitting!
     Validate at the farebox"
-        tools:layout_editor_absoluteX="122dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="274dp" />
 
     <Button
@@ -28,6 +32,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Return"
-        tools:layout_editor_absoluteX="161dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="410dp" />
 </android.support.constraint.ConstraintLayout>
