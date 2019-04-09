@@ -12,11 +12,16 @@ public class transferGiveOrTake extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transfer_give_or_take);
-
+        Button take= (Button) findViewById(R.id.take);
         Button give= (Button) findViewById(R.id.give);
         give.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(transferGiveOrTake.this, transferGive.class));
+            }
+        });
+        take.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(transferGiveOrTake.this, transferTake.class));
             }
         });
     }

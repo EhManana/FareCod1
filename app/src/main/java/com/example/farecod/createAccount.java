@@ -17,6 +17,7 @@ public class createAccount extends AppCompatActivity {
         EditText userName = (EditText) findViewById(R.id.userName);
         userName.setInputType(InputType.TYPE_CLASS_TEXT);
         String name=userName.getText().toString();
+
         Button yourButton = (Button) findViewById(R.id.createAccountBtn2);
 
         yourButton.setOnClickListener(new View.OnClickListener() {
