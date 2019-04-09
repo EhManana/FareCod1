@@ -18,6 +18,6 @@ public class transferGiveOrTake extends AppCompatActivity {
             public void onClick(View v){
                 startActivity(new Intent(transferGiveOrTake.this, transferGive.class));
             }
-        }
+        });
     }
 }
