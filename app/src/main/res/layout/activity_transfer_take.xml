@@ -10,7 +10,7 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Current value: (value)"
+        android:text="Current value: $ 5.00"
         tools:layout_editor_absoluteX="139dp"
         tools:layout_editor_absoluteY="52dp" />
 
